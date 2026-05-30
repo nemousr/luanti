@@ -30,6 +30,7 @@ on:
       - 'util/buildbot/**'
       - 'misc/*'
       - '.github/workflows/windows.yml'
+  workflow_dispatch:
 
 jobs:
   mingw:
